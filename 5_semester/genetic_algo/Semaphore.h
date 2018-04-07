@@ -1,0 +1,2 @@
+void SemaphoreWait(pthread_mutex_t* semaphore_mutex, pthread_cond_t* cv, int* current_amount);
+void SignalAllThreads(pthread_mutex_t* semaphore_mutex, const int numb_threads, pthread_cond_t* cv, int* current_amount);
